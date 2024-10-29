@@ -22,7 +22,7 @@ exports.handler = async function (event, context) {
     return {
       statusCode: 200,
       headers: {
-        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Origin': 'https://metodovillegas.com',
         'Access-Control-Allow-Headers': 'Content-Type',
         'Content-Type': 'application/json; charset=utf-8'  // Forzar UTF-8
       },
