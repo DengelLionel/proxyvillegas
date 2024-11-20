@@ -24,7 +24,7 @@ exports.handler = async function (event, context) {
       };
     }
 
-    const googleSheetUrl = `https://script.google.com/macros/s/AKfycbw4o_dBzyjSi07wg2YcVJlTFNdNp9flLMeqtIuX5PPedxpeGlDl4Kg3eN3JLxXmYz_0lw/exec?sheet=${sheetName}`;
+    const googleSheetUrl = `https://script.google.com/macros/s/AKfycbxEv1tpv4QRqTb-GJ70tJSag5RDsKxTnHU8jBtF0UoCg58lHkdN9kmhat8QJLWQlCWsNQ/exec?sheet=${sheetName}`;
     
     const response = await axios.get(googleSheetUrl);
     console.log("Datos recibidos desde Google Apps Script:", response.data);
